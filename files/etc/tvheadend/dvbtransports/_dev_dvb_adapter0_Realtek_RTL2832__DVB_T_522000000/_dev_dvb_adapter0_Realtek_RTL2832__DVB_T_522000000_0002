@@ -1,0 +1,54 @@
+{
+	"service_id": 2,
+	"pmt": 201,
+	"stype": 25,
+	"scrambled": 0,
+	"channel": 2,
+	"provider": "EmiTel",
+	"servicename": "TVP2 HD",
+	"channelname": "TVP2 HD",
+	"mapped": 1,
+	"dvb_eit_enable": 1,
+	"pcr": 202,
+	"disabled": 0,
+	"stream": {
+		"pid": 202,
+		"type": "H264",
+		"position": 0
+	},
+	"stream": {
+		"pid": 203,
+		"type": "MPEG2AUDIO",
+		"position": 1,
+		"language": "pol",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 205,
+		"type": "TELETEXT",
+		"position": 2,
+		"language": "pol"
+	},
+	"stream": {
+		"pid": 204,
+		"type": "EAC3",
+		"position": 3,
+		"language": "qaa",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 208,
+		"type": "EAC3",
+		"position": 4,
+		"language": "und",
+		"audio_type": 3
+	},
+	"stream": {
+		"pid": 206,
+		"type": "DVBSUB",
+		"position": 6,
+		"language": "pol",
+		"compositionid": 2,
+		"ancillartyid": 2
+	}
+}

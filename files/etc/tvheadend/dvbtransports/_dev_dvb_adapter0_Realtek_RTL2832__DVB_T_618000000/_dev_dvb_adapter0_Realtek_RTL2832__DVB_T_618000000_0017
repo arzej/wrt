@@ -1,0 +1,47 @@
+{
+	"service_id": 23,
+	"pmt": 501,
+	"stype": 22,
+	"scrambled": 0,
+	"channel": 0,
+	"provider": "EmiTel",
+	"servicename": "TVN Siedem",
+	"channelname": "TVN Siedem",
+	"mapped": 1,
+	"dvb_eit_enable": 1,
+	"pcr": 502,
+	"disabled": 0,
+	"stream": {
+		"pid": 502,
+		"type": "H264",
+		"position": 0
+	},
+	"stream": {
+		"pid": 503,
+		"type": "MPEG2AUDIO",
+		"position": 1,
+		"language": "pol",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 505,
+		"type": "TELETEXT",
+		"position": 2,
+		"language": "pol"
+	},
+	"stream": {
+		"pid": 504,
+		"type": "AC3",
+		"position": 3,
+		"language": "und",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 506,
+		"type": "DVBSUB",
+		"position": 4,
+		"language": "pol",
+		"compositionid": 4,
+		"ancillartyid": 5
+	}
+}

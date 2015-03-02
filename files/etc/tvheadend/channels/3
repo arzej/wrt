@@ -1,0 +1,9 @@
+{
+	"name": "Fokus TV",
+	"icon": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Fokus_tv_pl.png/1024px-Fokus_tv_pl.png",
+	"tags": [
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 17
+}

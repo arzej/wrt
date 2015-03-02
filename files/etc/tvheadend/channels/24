@@ -1,0 +1,9 @@
+{
+	"name": "TVP2 HD",
+	"icon": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tvp2_hd.png/1280px-Tvp2_hd.png",
+	"tags": [
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 2
+}

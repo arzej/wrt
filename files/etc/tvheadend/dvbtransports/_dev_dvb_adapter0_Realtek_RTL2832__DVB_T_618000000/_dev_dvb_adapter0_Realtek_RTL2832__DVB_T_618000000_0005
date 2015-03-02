@@ -1,0 +1,46 @@
+{
+	"service_id": 5,
+	"pmt": 301,
+	"stype": 22,
+	"scrambled": 0,
+	"channel": 0,
+	"provider": "EmiTel",
+	"servicename": "TV4",
+	"channelname": "TV4",
+	"mapped": 1,
+	"dvb_eit_enable": 1,
+	"pcr": 302,
+	"disabled": 0,
+	"stream": {
+		"pid": 302,
+		"type": "H264",
+		"position": 0
+	},
+	"stream": {
+		"pid": 303,
+		"type": "MPEG2AUDIO",
+		"position": 1,
+		"language": "pol",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 305,
+		"type": "TELETEXT",
+		"position": 2,
+		"language": "pol"
+	},
+	"stream": {
+		"pid": 308,
+		"type": "MPEG2AUDIO",
+		"position": 3,
+		"language": "und",
+		"audio_type": 3
+	},
+	"stream": {
+		"pid": 8969,
+		"type": "TEXTSUB",
+		"position": 1000,
+		"language": "pol",
+		"parentpid": 305
+	}
+}

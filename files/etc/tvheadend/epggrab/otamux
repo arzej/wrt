@@ -1,0 +1,43 @@
+{
+	"viasat_baltic": [
+		{
+			"onid": 8808,
+			"tsid": 3,
+			"period": 0,
+			"interval": 0,
+			"networkname": "NW 04 WIE"
+		}
+	],
+	"uk_freesat": [
+		{
+			"onid": 8808,
+			"tsid": 3,
+			"period": 0,
+			"interval": 0,
+			"networkname": "NW 04 WIE"
+		}
+	],
+	"eit": [
+		{
+			"onid": 8808,
+			"tsid": 2,
+			"period": 600,
+			"interval": 3600,
+			"networkname": "EmiTel"
+		},
+		{
+			"onid": 8808,
+			"tsid": 1,
+			"period": 600,
+			"interval": 3600,
+			"networkname": "EmiTel"
+		},
+		{
+			"onid": 8808,
+			"tsid": 3,
+			"period": 600,
+			"interval": 3600,
+			"networkname": "NW 04 WIE"
+		}
+	]
+}

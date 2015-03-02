@@ -1,0 +1,33 @@
+#!/bin/sh
+
+echo "$$" > /var/run/wifi_schedule.pid
+
+mkdir -p /var/wifi_schedule
+cp /etc/config/wifi_schedule /var/wifi_schedule
+
+while [ 1 ] ; do
+	day_hour=$(date +"%u_%k" | tr -d ' ')
+	enabledoncurrenthour="x$(uci get -q -c /var/wifi_schedule wifi_schedule.@days[0].`echo $day_hour`)"
+
+	if [ $enabledoncurrenthour == "x1" ]
+	then
+		if [ ! -L /sys/devices/virtual/net/br-lan/brif/wlan0 ] && [ ! -L /sys/devices/virtual/net/br-lan/brif/wlan1 ] && [ ! -L /sys/devices/virtual/net/br-lan/brif/wl0 ] && [ ! -L /sys/devices/virtual/net/br-lan/brif/wl1 ] && [ ! -L /sys/devices/virtual/net/br-lan/brif/ath0 ] && [ ! -L /sys/devices/virtual/net/br-lan/brif/ath1 ]
+		then
+			logger "wifi_schedule: wifi is enabled $day_hour and wifi is off, turn on"
+			wifi up
+		fi
+	else
+		if [ -L /sys/devices/virtual/net/br-lan/brif/wlan0 ] || [ -L /sys/devices/virtual/net/br-lan/brif/wlan1 ] || [ -L /sys/devices/virtual/net/br-lan/brif/wl0 ] || [ -L /sys/devices/virtual/net/br-lan/brif/wl1 ] || [ -L /sys/devices/virtual/net/br-lan/brif/ath0 ] || [ -L /sys/devices/virtual/net/br-lan/brif/ath1 ]
+		then
+			logger "wifi_schedule: wifi is disabled $day_hour and wifi is on, turn off"
+			wifi down
+		fi
+	fi
+
+	timetosleep=$(uci -q -c /var/wifi_schedule get wifi_schedule.@options[0].interval)
+	if [ $timetosleep -lt 30 ] || [ $timetosleep == "" ]
+	then
+		timetosleep=30
+	fi
+	sleep $timetosleep
+done

@@ -1,0 +1,22 @@
+{
+	"channel": "TVP ABC",
+	"start": 1421179800,
+	"stop": 1421180400,
+	"start_extra": 0,
+	"stop_extra": 0,
+	"config_name": "",
+	"creator": "192.168.1.156",
+	"filename": "/mnt/sda1/Księżyc noc kołysze.ts",
+	"title": {
+		"pol": "Księżyc noc kołysze"
+	},
+	"dvb_eid": 60062,
+	"description": {
+		"pol": "Kołysanka uniwersalna."
+	},
+	"pri": "normal",
+	"noresched": 0,
+	"contenttype": 96,
+	"broadcast": 2817,
+	"container": 4
+}

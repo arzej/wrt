@@ -1,0 +1,9 @@
+{
+	"name": "TV6",
+	"icon": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/TV6_logo.svg/377px-TV6_logo.svg.png",
+	"tags": [
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 6
+}

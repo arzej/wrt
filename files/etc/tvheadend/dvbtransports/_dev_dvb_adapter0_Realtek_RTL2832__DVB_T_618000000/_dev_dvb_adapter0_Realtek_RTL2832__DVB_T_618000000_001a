@@ -1,0 +1,26 @@
+{
+	"service_id": 26,
+	"pmt": 801,
+	"stype": 22,
+	"scrambled": 0,
+	"channel": 0,
+	"provider": "EmiTel",
+	"servicename": "Polsat Sport News",
+	"channelname": "Polsat Sport News",
+	"mapped": 1,
+	"dvb_eit_enable": 1,
+	"pcr": 802,
+	"disabled": 0,
+	"stream": {
+		"pid": 802,
+		"type": "H264",
+		"position": 0
+	},
+	"stream": {
+		"pid": 803,
+		"type": "MPEG2AUDIO",
+		"position": 1,
+		"language": "pol",
+		"audio_type": 0
+	}
+}

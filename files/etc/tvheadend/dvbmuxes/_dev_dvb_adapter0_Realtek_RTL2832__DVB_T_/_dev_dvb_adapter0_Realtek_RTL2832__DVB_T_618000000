@@ -1,0 +1,17 @@
+{
+	"quality": 100,
+	"enabled": 1,
+	"status": "OK",
+	"transportstreamid": 2,
+	"originalnetworkid": 8808,
+	"network": "EmiTel",
+	"frequency": 618000000,
+	"initialscan": 0,
+	"bandwidth": "8MHz",
+	"constellation": "QAM64",
+	"transmission_mode": "8k",
+	"guard_interval": "AUTO",
+	"hierarchy": "AUTO",
+	"fec_hi": "AUTO",
+	"fec_lo": "AUTO"
+}

@@ -1,0 +1,47 @@
+{
+	"service_id": 32,
+	"pmt": 3201,
+	"stype": 22,
+	"scrambled": 0,
+	"channel": 31,
+	"provider": "EmiTel",
+	"servicename": "TVP Historia",
+	"channelname": "TVP Historia",
+	"mapped": 1,
+	"dvb_eit_enable": 1,
+	"pcr": 502,
+	"disabled": 0,
+	"stream": {
+		"pid": 502,
+		"type": "H264",
+		"position": 0
+	},
+	"stream": {
+		"pid": 503,
+		"type": "MPEG2AUDIO",
+		"position": 1,
+		"language": "pol",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 505,
+		"type": "TELETEXT",
+		"position": 2,
+		"language": "pol"
+	},
+	"stream": {
+		"pid": 508,
+		"type": "EAC3",
+		"position": 4,
+		"language": "und",
+		"audio_type": 3
+	},
+	"stream": {
+		"pid": 506,
+		"type": "DVBSUB",
+		"position": 5,
+		"language": "pol",
+		"compositionid": 2,
+		"ancillartyid": 2
+	}
+}

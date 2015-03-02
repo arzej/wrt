@@ -1,0 +1,33 @@
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option channel '36'
+	option path 'pci0000:01/0000:01:00.0'
+	option country 'PL'
+	option txpower '20'
+
+config wifi-iface
+	option device 'radio0'
+	option mode 'ap'
+	option encryption 'psk2'
+	option key 'latAwcOwa15'
+	option ssid 'Mrowka'
+	option network 'lan'
+
+config wifi-device 'radio1'
+	option type 'mac80211'
+	option hwmode '11g'
+	option path 'platform/qca955x_wmac'
+	option txpower '20'
+	option country 'PL'
+	option channel '3'
+	option htmode 'HT40'
+
+config wifi-iface
+	option device 'radio1'
+	option mode 'ap'
+	option encryption 'psk2'
+	option key 'latAwcOwa15'
+	option network 'lan'
+	option ssid 'Mrowka24'
+

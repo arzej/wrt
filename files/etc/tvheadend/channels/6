@@ -1,0 +1,9 @@
+{
+	"name": "Polsat Sport News",
+	"icon": "http://upload.wikimedia.org/wikipedia/commons/2/21/Polsat_Sport_News_logo.jpg",
+	"tags": [
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 20
+}

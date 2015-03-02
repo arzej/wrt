@@ -1,0 +1,9 @@
+{
+	"name": "TVP Polonia",
+	"icon": "http://upload.wikimedia.org/wikipedia/commons/8/88/TV_Polonia.jpg",
+	"tags": [
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 12
+}

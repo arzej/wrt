@@ -1,0 +1,46 @@
+{
+	"service_id": 53,
+	"pmt": 5301,
+	"stype": 22,
+	"scrambled": 0,
+	"channel": 0,
+	"provider": "EmiTel",
+	"servicename": "Fokus TV",
+	"channelname": "Fokus TV",
+	"mapped": 1,
+	"dvb_eit_enable": 1,
+	"pcr": 5302,
+	"disabled": 0,
+	"stream": {
+		"pid": 5302,
+		"type": "H264",
+		"position": 0
+	},
+	"stream": {
+		"pid": 5303,
+		"type": "MPEG2AUDIO",
+		"position": 1,
+		"language": "pol",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 5305,
+		"type": "TELETEXT",
+		"position": 2,
+		"language": "pol"
+	},
+	"stream": {
+		"pid": 5308,
+		"type": "MPEG2AUDIO",
+		"position": 4,
+		"language": "und",
+		"audio_type": 3
+	},
+	"stream": {
+		"pid": 8969,
+		"type": "TEXTSUB",
+		"position": 1000,
+		"language": "pol",
+		"parentpid": 5305
+	}
+}

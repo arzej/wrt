@@ -1,0 +1,9 @@
+{
+	"name": "TV4",
+	"icon": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/TV4_pol.svg/150px-TV4_pol.svg.png",
+	"tags": [
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 5
+}

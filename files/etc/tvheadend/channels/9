@@ -1,0 +1,9 @@
+{
+	"name": "TTV",
+	"icon": "http://upload.wikimedia.org/wikipedia/commons/a/a2/TTV_Logo.jpg",
+	"tags": [
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 22
+}

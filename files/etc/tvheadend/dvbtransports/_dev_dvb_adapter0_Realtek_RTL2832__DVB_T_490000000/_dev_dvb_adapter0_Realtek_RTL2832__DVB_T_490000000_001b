@@ -1,0 +1,26 @@
+{
+	"service_id": 27,
+	"pmt": 2701,
+	"stype": 22,
+	"scrambled": 0,
+	"channel": 0,
+	"provider": "EmiTel",
+	"servicename": "Eska TV",
+	"channelname": "Eska TV",
+	"mapped": 1,
+	"dvb_eit_enable": 1,
+	"pcr": 2702,
+	"disabled": 0,
+	"stream": {
+		"pid": 2702,
+		"type": "H264",
+		"position": 0
+	},
+	"stream": {
+		"pid": 2703,
+		"type": "MPEG2AUDIO",
+		"position": 1,
+		"language": "pol",
+		"audio_type": 0
+	}
+}

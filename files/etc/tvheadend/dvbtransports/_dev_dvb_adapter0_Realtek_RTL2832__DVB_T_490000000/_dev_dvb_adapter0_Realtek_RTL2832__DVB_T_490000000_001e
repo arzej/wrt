@@ -1,0 +1,54 @@
+{
+	"service_id": 30,
+	"pmt": 3001,
+	"stype": 22,
+	"scrambled": 0,
+	"channel": 0,
+	"provider": "EmiTel",
+	"servicename": "ATM Rozrywka",
+	"channelname": "ATM Rozrywka",
+	"mapped": 1,
+	"dvb_eit_enable": 1,
+	"pcr": 3002,
+	"disabled": 0,
+	"stream": {
+		"pid": 3002,
+		"type": "H264",
+		"position": 0
+	},
+	"stream": {
+		"pid": 3003,
+		"type": "MPEG2AUDIO",
+		"position": 1,
+		"language": "pol",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 3005,
+		"type": "TELETEXT",
+		"position": 2,
+		"language": "pol"
+	},
+	"stream": {
+		"pid": 3006,
+		"type": "DVBSUB",
+		"position": 3,
+		"language": "pol",
+		"compositionid": 4,
+		"ancillartyid": 5
+	},
+	"stream": {
+		"pid": 3008,
+		"type": "MPEG2AUDIO",
+		"position": 4,
+		"language": "und",
+		"audio_type": 3
+	},
+	"stream": {
+		"pid": 8969,
+		"type": "TEXTSUB",
+		"position": 1000,
+		"language": "pol",
+		"parentpid": 3005
+	}
+}

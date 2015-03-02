@@ -1,0 +1,10 @@
+{
+	"service_id": 52,
+	"pmt": 0,
+	"stype": 0,
+	"scrambled": 0,
+	"channel": 17,
+	"dvb_eit_enable": 1,
+	"pcr": 0,
+	"disabled": 0
+}

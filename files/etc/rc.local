@@ -1,0 +1,26 @@
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+#dvb-t 
+insmod dvb-core
+insmod input-core
+insmod rc-core
+insmod dvb-usb
+insmod dvb_usb_v2
+insmod rtl2832
+#insmod rtl2830
+#insmod fc0011
+#insmod fc0012
+insmod fc0013
+#insmod ir-jvc-decoder
+#insmod ir-nec-decoder
+#insmod ir-rc5-decoder
+#insmod ir-rc6-decoder
+#insmod ir-sanyo-decoder
+#insmod ir-sony-decoder
+insmod dvb-usb-rtl28xxu
+/etc/init.d/tvheadend start
+#ip sec vpn deamon
+/etc/init.d/ipsec enable
+/etc/init.d/ipsec start
+exit 0

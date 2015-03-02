@@ -1,0 +1,9 @@
+{
+	"name": "TVP Info",
+	"icon": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TVP_Info_logo.svg/390px-TVP_Info_logo.svg.png",
+	"tags": [
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 10
+}

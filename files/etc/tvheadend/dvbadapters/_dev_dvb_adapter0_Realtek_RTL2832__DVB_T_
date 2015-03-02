@@ -1,0 +1,23 @@
+{
+	"enabled": 1,
+	"fe_path": "/dev/dvb/adapter0/frontend0",
+	"dmx_path": "/dev/dvb/adapter0/demux0",
+	"dvr_path": "/dev/dvb/adapter0/dvr0",
+	"type": "DVB-T",
+	"displayname": "Realtek RTL2832 (DVB-T)",
+	"autodiscovery": 1,
+	"idlescan": 1,
+	"idleclose": 0,
+	"skip_checksubscr": 0,
+	"sidtochan": 0,
+	"qmon": 0,
+	"poweroff": 0,
+	"nitoid": 0,
+	"diseqc_version": 0,
+	"diseqc_repeats": 0,
+	"extrapriority": 0,
+	"skip_initialscan": 0,
+	"disable_pmt_monitor": 0,
+	"full_mux_rx": -1,
+	"grace_period": 0
+}

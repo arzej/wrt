@@ -1,0 +1,9 @@
+{
+	"name": "PULS 2",
+	"icon": "http://upload.wikimedia.org/wikipedia/commons/0/03/Puls_2_logo.png",
+	"tags": [
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 18
+}

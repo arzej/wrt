@@ -1,0 +1,13 @@
+
+config samba
+	option homes '1'
+	option name 'Mrowka'
+	option description 'Mrowka'
+	option workgroup 'ADDS'
+
+config sambashare
+	option name 'media'
+	option path '/mnt/sda1'
+	option read_only 'no'
+	option guest_ok 'yes'
+

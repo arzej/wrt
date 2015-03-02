@@ -1,0 +1,40 @@
+{
+	"service_id": 18,
+	"pmt": 1801,
+	"stype": 22,
+	"scrambled": 0,
+	"channel": 3,
+	"provider": "EmiTel",
+	"servicename": "TVP Poznan",
+	"channelname": "TVP Poznan",
+	"mapped": 1,
+	"dvb_eit_enable": 1,
+	"pcr": 1802,
+	"disabled": 0,
+	"stream": {
+		"pid": 1802,
+		"type": "H264",
+		"position": 0
+	},
+	"stream": {
+		"pid": 1803,
+		"type": "MPEG2AUDIO",
+		"position": 1,
+		"language": "pol",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 1805,
+		"type": "TELETEXT",
+		"position": 2,
+		"language": "pol"
+	},
+	"stream": {
+		"pid": 1806,
+		"type": "DVBSUB",
+		"position": 4,
+		"language": "pol",
+		"compositionid": 2,
+		"ancillartyid": 2
+	}
+}

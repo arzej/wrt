@@ -1,0 +1,48 @@
+{
+	"service_id": 51,
+	"pmt": 5101,
+	"stype": 22,
+	"scrambled": 0,
+	"channel": 0,
+	"provider": "EmiTel",
+	"servicename": "TVP ABC",
+	"channelname": "TVP ABC",
+	"mapped": 1,
+	"dvb_eit_enable": 1,
+	"pcr": 5102,
+	"disabled": 0,
+	"stream": {
+		"pid": 5102,
+		"type": "H264",
+		"position": 0
+	},
+	"stream": {
+		"pid": 5103,
+		"type": "MPEG2AUDIO",
+		"position": 1,
+		"language": "pol",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 5104,
+		"type": "AC3",
+		"position": 2,
+		"language": "und",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 5106,
+		"type": "DVBSUB",
+		"position": 3,
+		"language": "pol",
+		"compositionid": 2,
+		"ancillartyid": 2
+	},
+	"stream": {
+		"pid": 5108,
+		"type": "EAC3",
+		"position": 5,
+		"language": "und",
+		"audio_type": 3
+	}
+}

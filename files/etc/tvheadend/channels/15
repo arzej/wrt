@@ -1,0 +1,9 @@
+{
+	"name": "TVN Siedem",
+	"icon": "http://upload.wikimedia.org/wikipedia/commons/8/87/Tvn7_hd.2014.png",
+	"tags": [
+	],
+	"dvr_extra_time_pre": 0,
+	"dvr_extra_time_post": 0,
+	"channel_number": 7
+}

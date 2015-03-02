@@ -1,0 +1,26 @@
+{
+	"service_id": 35,
+	"pmt": 3501,
+	"stype": 22,
+	"scrambled": 0,
+	"channel": 34,
+	"provider": "EmiTel",
+	"servicename": "TVP Info",
+	"channelname": "TVP Info",
+	"mapped": 1,
+	"dvb_eit_enable": 1,
+	"pcr": 3502,
+	"disabled": 0,
+	"stream": {
+		"pid": 3502,
+		"type": "H264",
+		"position": 0
+	},
+	"stream": {
+		"pid": 3503,
+		"type": "MPEG2AUDIO",
+		"position": 1,
+		"language": "pol",
+		"audio_type": 0
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"service_id": 1,
+	"pmt": 101,
+	"stype": 25,
+	"scrambled": 0,
+	"channel": 1,
+	"provider": "EmiTel",
+	"servicename": "TVP1 HD",
+	"channelname": "TVP1 HD",
+	"mapped": 1,
+	"dvb_eit_enable": 1,
+	"pcr": 102,
+	"disabled": 0,
+	"stream": {
+		"pid": 102,
+		"type": "H264",
+		"position": 0
+	},
+	"stream": {
+		"pid": 103,
+		"type": "MPEG2AUDIO",
+		"position": 1,
+		"language": "pol",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 105,
+		"type": "TELETEXT",
+		"position": 2,
+		"language": "pol"
+	},
+	"stream": {
+		"pid": 104,
+		"type": "EAC3",
+		"position": 3,
+		"language": "qaa",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 106,
+		"type": "DVBSUB",
+		"position": 4,
+		"language": "pol",
+		"compositionid": 2,
+		"ancillartyid": 2
+	},
+	"stream": {
+		"pid": 108,
+		"type": "EAC3",
+		"position": 5,
+		"language": "und",
+		"audio_type": 3
+	},
+	"stream": {
+		"pid": 109,
+		"type": "DVBSUB",
+		"position": 7,
+		"language": "eng",
+		"compositionid": 2,
+		"ancillartyid": 2
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"service_id": 50,
+	"pmt": 5011,
+	"stype": 22,
+	"scrambled": 0,
+	"channel": 0,
+	"provider": "EmiTel",
+	"servicename": "TV Trwam",
+	"channelname": "TV Trwam",
+	"mapped": 1,
+	"dvb_eit_enable": 1,
+	"pcr": 5012,
+	"disabled": 0,
+	"stream": {
+		"pid": 5003,
+		"type": "MPEG2AUDIO",
+		"position": 0,
+		"language": "pol",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 5005,
+		"type": "TELETEXT",
+		"position": 1,
+		"language": "pol"
+	},
+	"stream": {
+		"pid": 5012,
+		"type": "H264",
+		"position": 2,
+		"language": "pol"
+	}
+}

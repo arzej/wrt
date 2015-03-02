@@ -1,0 +1,46 @@
+{
+	"service_id": 28,
+	"pmt": 2801,
+	"stype": 22,
+	"scrambled": 0,
+	"channel": 0,
+	"provider": "EmiTel",
+	"servicename": "TTV",
+	"channelname": "TTV",
+	"mapped": 1,
+	"dvb_eit_enable": 1,
+	"pcr": 2802,
+	"disabled": 0,
+	"stream": {
+		"pid": 2802,
+		"type": "H264",
+		"position": 0
+	},
+	"stream": {
+		"pid": 2803,
+		"type": "MPEG2AUDIO",
+		"position": 1,
+		"language": "pol",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 2804,
+		"type": "AC3",
+		"position": 2,
+		"language": "mul",
+		"audio_type": 0
+	},
+	"stream": {
+		"pid": 2805,
+		"type": "TELETEXT",
+		"position": 3,
+		"language": "mul"
+	},
+	"stream": {
+		"pid": 8945,
+		"type": "TEXTSUB",
+		"position": 1000,
+		"language": "pol",
+		"parentpid": 2805
+	}
+}
