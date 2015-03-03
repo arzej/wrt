@@ -1,0 +1,21 @@
+#!/bin/bash
+FILE=/var/current.ip
+LIST=/etc/ipservices.list
+PREVIOUSIP=$(cat "$FILE") 
+SERVICE=$(awk NR==$((${RANDOM} % `wc -l < $LIST` + 1)) $LIST)
+IP=$(wget -q -O - $SERVICE | sed -e 's/[^[:digit:]\|.]//g')
+while [ -z "$IP" ]
+do
+    SERVICE=$(awk NR==$((${RANDOM} % `wc -l < $LIST` + 1)) $LIST)
+    IP=$(wget -q -O - $SERVICE | sed -e 's/[^[:digit:]\|.]//g')
+    sleep 30
+done
+echo "using service: $SERVICE"
+echo -n "$IP" > $FILE
+echo "Current address is $IP"
+echo "Previous address is $PREVIOUSIP"
+if [ "$IP" == "$PREVIOUSIP" ]; then
+    echo "IP is the same"
+else
+    echo -e "From: andrzejkapluk@gmail.com\nSubject: HOME NETWORK NEW IP\nReply-to: andrzejkapluk@gmail.com\n\n$IP" | ssmtp -vvv andrzejkapluk@outlook.com
+fi
