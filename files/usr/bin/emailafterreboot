@@ -1,0 +1,23 @@
+#!/bin/sh /etc/rc.common
+# Example script
+# Copyright (C) 2007 OpenWrt.org
+# usage:
+# https://fleshandmachines.wordpress.com/2014/09/14/openwrt-automatic-email-sending/
+
+START=99
+STOP=100
+
+  start() {
+            echo start of the email sending after reboot
+            ssmtp [user@gmail.com] < /etc/ssmtp/mail.txt
+          }
+
+  stop() {
+            echo stop
+            # commands to kill application
+         }
+  boot() {
+            echo start of the email sending after reboot
+            ssmtp [user@gmail.com] < /etc/ssmtp/mail.txt
+         }
+

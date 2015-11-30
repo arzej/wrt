@@ -23,4 +23,10 @@ insmod dvb-usb-rtl28xxu
 #ip sec vpn deamon
 /etc/init.d/ipsec enable
 /etc/init.d/ipsec start
+#simple adblock
+/usr/bin/adblock.sh
+#sleep after 5min inactivity
+/usr/bin/hdd_sleep.sh & >/dev/null
+#send logs daily
+/usr/bin/send_logs & >/dev/null
 exit 0

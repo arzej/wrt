@@ -1,0 +1,22 @@
+#!/bin/bash
+# Cyle time between checks, normally between 60 up to 300 Seconds. Protect the CPU/BUS Load.
+time_cyle=3600
+mailbodyfile="/tmp/mailbody"
+bootlogfile="/var/log/boot.log"
+firewalllogfile="/var/log/firewalld"
+while [ true ] ; do
+  if [ -f "$bootlogfile" ]; then
+    echo "BOOTLOG" >> $mailbodyfile
+    echo `grep ERROR "$bootlogfile"` >> $mailbodyfile
+  fi 
+  if [ -f "$firewalllogfile" ]; then
+    echo "FIREWALL LOG" >> $mailbodyfile
+    echo `grep ERROR "$firewalllogfile"` >> $mailbodyfile
+  fi
+  mailbody=`cat $mailbodyfile`
+  echo -e "From: andrzejkapluk@gmail.com\nSubject: HOME NETWORK LOGS\nReply-to: andrzejkapluk@gmail.com\n\n${mailbody}" | ssmtp -vvv andrzejkapluk@outlook.com
+  rm $mailbodyfile
+  # Cycle Wait
+  sleep $time_cyle
+done
+exit 0
